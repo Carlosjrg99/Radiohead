@@ -1,0 +1,36 @@
+#discog
+{
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(3,minmax(100px, 1fr));
+	grid-template-rows: repeat(3,minmax(100px, 1fr));
+}
+#bio
+{
+	display: grid;
+	column-gap: 10px;
+	grid-row-gap: 50px;
+	grid-template-columns: 1fr minmax(250px, 1fr) 1fr minmax(250px, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+#galeria
+{
+	display: grid;
+	column-gap: 10px;
+	grid-row-gap: 50px;
+	grid-template-columns: repeat(4, 1fr);
+}
+#galeria #pen
+{
+	grid-column-start: 2;
+}
+#evento
+{
+display: grid;
+grid-template-columns: repeat(5, 19vw);
+grid-auto-rows: auto;	
+}
+.mes
+{
+	grid-column: 1 / -1;
+}

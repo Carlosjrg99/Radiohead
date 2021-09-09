@@ -1,0 +1,285 @@
+@font-face
+{
+	font-family: MonumentExtended-Ultrabold;
+	src: url("../fonts/MonumentExtended-Ultrabold.otf");
+}
+@font-face
+{
+	font-family: Bd Plakatbau;
+	src: url("../fonts/bdplakatt.ttf");	
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}body
+{
+	background-image: url("../img/fondo/fondo5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: BD Plakatbau, MonumentExtended-Ultrabold;
+	font-size: 50px;
+}
+header
+{
+	padding: 30px;
+	background-color: #1c1c1c;
+	color:whitesmoke;
+}
+ul
+{
+	list-style: none;
+	text-align: center;
+}
+ul > li
+{
+	display: inline;
+	padding: 20px;
+}
+
+ul > li > a:hover
+{
+	color:#ffec93;
+}
+.navegador
+{
+	text-decoration: none;
+	font-size-adjust: 0.35;
+	color:white;
+	padding: 10px;
+}
+#actual
+{
+	color: #ffec93;
+}
+#cuerpo
+{
+	margin: auto;
+	text-align: center;
+	font-size: 50px;
+}
+#bio
+{
+	width: 100%;
+}
+#bio > div:nth-child(2n+1)
+{
+	border-left: groove;
+}
+#bio > div:nth-child(2n)
+{
+	border-right: groove;
+}
+#bio > div > p
+{
+	margin-top: 15px;
+	margin-right: 5px;
+	font-family: MonumentExtended-Ultrabold;
+	color: whitesmoke;
+	font-size: 30px;
+}
+div
+{
+	display: block;
+}
+#cuerpo > h1
+{
+	top:200px;
+}
+a
+{
+	text-decoration: none;
+	font-size-adjust: 0.5;
+	color:#ffec93;
+}
+#caja
+{
+    width:300px;
+    height:350px;
+    background-color:#1d1d1d;
+    color:#fff;
+    margin: 75px auto;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0px 0px 25px rgba(0,0,0,0.75);
+}
+#forma
+{
+	font-family: MonumentExtended-Ultrabold;
+	color: whitesmoke;
+	font-size: 20px;
+}
+#forma > label, #enviar
+{
+	display: block;
+}
+input
+{
+	margin-bottom: 20px;
+	font-family: MonumentExtended-Ultrabold;
+	font-size: 10px;
+}
+input[type=text], input[type=email], input[type=number], select
+{
+	border: none;
+	border-radius: 3px;
+    letter-spacing: 2px;
+	height: 20px;
+	width: 100%;
+	background-color: #444;
+	color: whitesmoke;
+}
+input[type=number]
+{
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+#genero
+{
+	-webkit-appearance: none;
+	display: block;
+	font-family: MonumentExtended-Ultrabold;
+	font-size: 10px;
+	width: 100%;
+	border: 1px solid #aaa;
+	appearance: none;
+}
+#genero > option
+{
+	font-family: MonumentExtended-Ultrabold;
+	font-size-adjust: 0.5;
+}
+::placeholder
+{
+	color: whitesmoke;
+}
+.enviar
+{
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+	font-family: MonumentExtended-Ultrabold;
+    border:solid whitesmoke 2px;
+    border-radius: 5px;
+    background-color:#000;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    padding:5px;
+    cursor:pointer;
+}
+#enviar
+{
+	margin-top: 30px;
+}
+#cancelar
+{
+	margin-top: 5px;
+}
+#pie
+{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+footer
+{
+	font-family: arial;
+	font-size: 20px;
+	padding:10px;
+	color:whitesmoke;
+	background-color:#1c1c1c;
+	text-align: center;
+}
+
+.album
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	box-shadow: 0px 0px 25px #ff0049;
+	height: 300px;
+	width: 300px;
+}
+.recital
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 25px #ff0049;
+	height: 200px;
+	width: 300px;
+}
+.envio:hover
+{
+	color: #ff0049;
+}
+.envio:hover > img
+{
+	box-shadow: 0px 0px 30px #ffec93;
+}
+.container
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: whitesmoke;
+}
+#galeria
+{
+	font-family: MonumentExtended-Ultrabold;
+	font-size-adjust: 0.25;
+	margin: 30px auto;
+}
+#evento
+{
+	width: 95vw;
+	font-family: MonumentExtended-Ultrabold;
+	border: solid whitesmoke 5px;
+	font-size: 1.5vw;
+}
+#evento > div
+{
+	padding: 10px;
+	background-color: #1c1c1c;
+	border: solid whitesmoke 2px;
+	color: whitesmoke;
+	font-size-adjust: 0.25;
+}
+#evento > .mes
+{
+	background-color: whitesmoke;
+	border: solid #1c1c1c 5px;
+	color: #1c1c1c;
+	font-size-adjust: 0.35;
+}
+#evento > .indicador
+{
+	background-color: whitesmoke;
+	border: solid #1c1c1c 3px;
+	color: #1c1c1c;
+	font-size-adjust: 0.25;
+}
+#evento > .cancelado
+{
+	background-color: #ff0000;
+	color: #1c1c1c;
+}
+#evento > .pospuesto
+{
+	background-color: #fff000;
+	color: #1c1c1c;
+}
+#evento > .agotado
+{
+	background-color: #ff8000;
+	color: #1c1c1c;
+}
+#evento > .en_venta
+{
+	background-color: #00ff00;
+	color: #1c1c1c;
+}

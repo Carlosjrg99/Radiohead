@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<title>RADIOHEAD</title>
+	</head>
+	<body>
+		<div>
+			<header>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="navegador">INICIO</a></li>
+						<li><a href="biografia.html" class="navegador">BIOGRAFIA</a></li>
+						<li><a href="discografia.html" class="navegador">DISCOGRAFIA</a></li>
+						<li><a href="galeria_imagenes.html" class="navegador">GALERIA</a></li>
+						<li><a href="eventos.html" class="navegador">EVENTOS</a></li>
+						<li><a href="contactos.html" id="actual" class="navegador">CONTACTOS</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<div id="cuerpo">
+		<div id="caja">
+                    <form id="forma">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder=" Nombre Apellido" required>
+                        <label for="nacimiento">Año de nacimiento:</label>
+                        <input type="number" id="nacimiento" name="nacimiento" min="1900" max="2020" placeholder=" aaaa" required>
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo" placeholder=" correo" required>
+                        <label for="genero">Género:</label>
+                        <select id="genero" name="genero" required>
+                            <option value="" disabled selected hidden>-seleccionar-</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                        </select>
+                        <input class="enviar" id="enviar" type="submit" value="Enviar">
+                        <input class="enviar" id="cancelar" type="reset" name="opcion" value="Cancelar">
+                    </form>
+		</div>
+		</div>
+		<div id="pie">
+			<footer>
+      			<span>Carlos Ron &copy; 2020 - Sección 349</span>
+			</footer>
+		</div>
+	</body>
+</html>
